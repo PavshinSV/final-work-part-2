@@ -25,4 +25,17 @@ public class Pack extends Animal {
             this.habit = newHabit;
         }
     }
+
+    @Override
+    public String toString() {
+        return "Pet{" +
+                "id=" + super.getId() + '\'' +
+                "name= " + name + '\'' +
+                "species=" + super.getSpecies() + '\'' +
+                "birthdate=" + super.getBirthdate() + '\'' +
+                "color=" + super.getColor() + '\'' +
+                "trait=" + super.getTrait() + '\'' +
+                ", habit='" + habit + '\'' +
+                '}';
+    }
 }

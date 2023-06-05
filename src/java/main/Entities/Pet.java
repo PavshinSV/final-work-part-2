@@ -25,4 +25,17 @@ public abstract class Pet extends Animal {
             this.skill = newSkill;
         }
     }
+
+    @Override
+    public String toString() {
+        return "Pet{" +
+                "id=" + super.getId() + '\'' +
+                "name= " + name + '\'' +
+                "species=" + super.getSpecies() + '\'' +
+                "birthdate=" + super.getBirthdate() + '\'' +
+                "color=" + super.getColor() + '\'' +
+                "trait=" + super.getTrait() + '\'' +
+                ", skill='" + skill + '\'' +
+                '}';
+    }
 }

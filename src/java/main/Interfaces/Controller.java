@@ -7,7 +7,7 @@ public interface Controller {
 
     void addAnimal();
 
-    String showCommands(Animal animal);
+    void listOfSkills();
 
-    void addCommand(Animal animal);
+    void newSkill();
 }
